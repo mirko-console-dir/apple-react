@@ -5,16 +5,9 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from "./components/homepage/HomeLandingPage";
 import About from "./components/about/About";
 import "./App.css";
-/* to display api */
-import { ToastContainer, toast } from "react-toastify";
 
 function App(props) {
   console.log(props);
-  /* useEffect(() => {
-    return () => {};
-  }, []); */
-  /* react hook (sconveniente in app grandi usare una store globale )*/
-
   return (
     <>
       <div className="App">
@@ -29,17 +22,6 @@ function App(props) {
             <Route path="/about">
               <About />
             </Route>
-            <ToastContainer
-              position="bottom-right"
-              autoClose={4000}
-              hideProgressBar={false}
-              newestOnTop={false}
-              closeOnClick
-              rtl={false}
-              pauseOnFocusLoss
-              draggable
-              pauseOnHover
-            />
           </Switch>
         </Router>
       </div>
