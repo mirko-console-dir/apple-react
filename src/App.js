@@ -7,7 +7,7 @@ import About from "./components/about/About";
 import "./App.css";
 
 function App(props) {
-  console.log();
+  console.log(props);
   return (
     <>
       <div className="App">
