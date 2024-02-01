@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.ccda0143.css",
-    "main.js": "/static/js/main.f38c8443.js",
-    "static/js/787.eec3c5aa.chunk.js": "/static/js/787.eec3c5aa.chunk.js",
-    "static/media/macbook-1-desktop.png": "/static/media/macbook-1-desktop.1c60580b39ce2f4631c8.png",
-    "index.html": "/index.html",
-    "main.ccda0143.css.map": "/static/css/main.ccda0143.css.map",
-    "main.f38c8443.js.map": "/static/js/main.f38c8443.js.map",
-    "787.eec3c5aa.chunk.js.map": "/static/js/787.eec3c5aa.chunk.js.map"
+    "main.css": "/apple-react/static/css/main.cc05953e.css",
+    "main.js": "/apple-react/static/js/main.1376b3a8.js",
+    "static/js/787.eec3c5aa.chunk.js": "/apple-react/static/js/787.eec3c5aa.chunk.js",
+    "static/media/macbook-1-desktop.png": "/apple-react/static/media/macbook-1-desktop.1c60580b39ce2f4631c8.png",
+    "index.html": "/apple-react/index.html",
+    "main.cc05953e.css.map": "/apple-react/static/css/main.cc05953e.css.map",
+    "main.1376b3a8.js.map": "/apple-react/static/js/main.1376b3a8.js.map",
+    "787.eec3c5aa.chunk.js.map": "/apple-react/static/js/787.eec3c5aa.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ccda0143.css",
-    "static/js/main.f38c8443.js"
+    "static/css/main.cc05953e.css",
+    "static/js/main.1376b3a8.js"
   ]
 }
