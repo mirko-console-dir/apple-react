@@ -1,6 +1,6 @@
-import { React, useState, useEffect } from "react";
+import { React } from "react";
 /* connect to connect a component to the file store */
-import { useSelector, connect } from "react-redux";
+import {connect } from "react-redux";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from "./components/homepage/HomeLandingPage";
 import About from "./components/about/About";
@@ -16,10 +16,10 @@ function App(props) {
         ))} */}
         <Router>
           <Switch>
-            <Route exact path="/">
+            <Route exact path="/apple-react">
               <Home />
             </Route>
-            <Route path="/about">
+            <Route path="/apple-react/about">
               <About />
             </Route>
           </Switch>

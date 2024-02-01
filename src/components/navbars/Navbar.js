@@ -1,13 +1,13 @@
-import { NavLink, Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
     <>
       <nav className="navbar">
-        <NavLink activeClassName="active" className="navbar-link" to="/">
+        <NavLink activeClassName="active" className="navbar-link" to="/apple-react">
           Home
         </NavLink>
-        <NavLink activeClassName="active" className="navbar-link" to="/about">
+        <NavLink activeClassName="active" className="navbar-link" to="/apple-react/about">
           About
         </NavLink>
       </nav>

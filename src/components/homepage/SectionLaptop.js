@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 
 const SectionOverEffect = () => {
   window.addEventListener("scroll", () => {
@@ -22,10 +22,12 @@ const SectionOverEffect = () => {
         <img
           src="images/MacBook/macbook-screen.png"
           className="macbook-img-1"
+          alt=""
         />
         <img
           src="images/MacBook/macbook-keyboard.png"
           className="macbook-img-2"
+          alt=""
         />
         {/* End of Section 3 Images */}
         {/* Section 3 Loading */}

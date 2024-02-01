@@ -83,7 +83,7 @@ const HeaderH = () => {
       <div className="cube-wrapper">
         <div className="cube">
           <div className="front-side">
-            <img src="images/iphone.png" alt="image_product" />
+            <img src="/images/iphone.png" alt="image_product" />
           </div>
           <div className="back-side center">
             <i className="fab fa-apple" />
